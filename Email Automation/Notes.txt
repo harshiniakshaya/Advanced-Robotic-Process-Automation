@@ -1,0 +1,13 @@
+Pre-requisites
+Gmail, 2 step verification, App password
+
+7 Activity Process
+1. Get Password
+2. Read Range Workbook
+	Output: DataTable
+3. Get IMAP Mail Messages - downgrade the Mail Activities version to 1.23.11
+	Set the properties
+	i 
+4. For Each (Control Acitiviy)
+5. 
+ 
