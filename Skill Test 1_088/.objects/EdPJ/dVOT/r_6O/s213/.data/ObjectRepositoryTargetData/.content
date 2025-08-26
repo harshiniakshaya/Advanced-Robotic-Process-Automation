@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qJkv7lkl6k-qcQcWxLIYNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ritchennai.org" CVScreenId="dc7bb1cc-1611-42ff-933c-6810ecd2958a" CvTextArea="990, 172, 251, 17" CvTextArgument="Smart India Hackathon 2022" CvType="Text" DesignTimeRectangle="992, 167, 249, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Smart India Hackathon 2022' tag='A' /&gt;" Guid="061bfa48-7f9e-4477-bd8c-ce5f1a2515b3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="9, 210, 1901, 178" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="9ec857af-a2e9-4497-b2db-e31d0f30f151" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d4f5abf997b9b2045ebfcc4c542343d.png" xmlns="">0PyESlpEXokGTmPw5ismZ8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

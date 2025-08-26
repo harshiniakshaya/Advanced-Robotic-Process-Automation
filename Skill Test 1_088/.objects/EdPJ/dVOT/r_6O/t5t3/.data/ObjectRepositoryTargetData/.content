@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="phzbEWnwL06YqTt9Y6A3rQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ritchennai.org" CVScreenId="6c34c6ce-ed69-474e-967d-c774eb356bd8" CvTextArea="1270, 171, 211, 18" CvTextArgument="International Admission" CvType="Text" DesignTimeRectangle="1272, 167, 209, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='International Admission' tag='A' /&gt;" Guid="b898ed08-1257-441c-8590-8c27cde22262" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9ffeeace5086353fe9d4c36f69b147d0.png" xmlns="">0ILNE-KV8nkOFkbILPVI7pQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

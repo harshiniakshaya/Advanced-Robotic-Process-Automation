@@ -1,0 +1,359 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1199.6000000000001,1539.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Best Engineering college in Chennai  R" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518.4,1516" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bf3c27a5-1aa6-4c36-b0cd-762c5e17368b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,1276" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="exists" />
+              <Variable x:TypeArguments="x:Boolean" Name="sihExists" />
+              <Variable x:TypeArguments="x:Boolean" Name="ele3Exists" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[exists]" sap:VirtualizedContainerService.HintSize="451.2,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="925d485a-0c26-4328-ba55-d5fe0cebf50d" InformativeScreenshot="a3addf43a90a23e19be1f10ad3a26707" Selector="&lt;webctrl tag='DIV' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <If Condition="[exists=True]" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="If_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484.8,1071.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="ui:UiElement" Name="ele1" />
+                    <Variable x:TypeArguments="x:String" Name="contact" />
+                    <Variable x:TypeArguments="x:Boolean" Name="contactExists" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.2,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Navigation menu exists!&quot;]" />
+                  <ui:UiElementExists DisplayName="Element Exists 'LI'" Exists="[contactExists]" sap:VirtualizedContainerService.HintSize="451.2,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6c927d70-1f33-4bfb-8312-02cc8ba386c5" InformativeScreenshot="af04ad76e798c33e6fb3046b6843b856" Selector="&lt;webctrl idx='4' tag='LI' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                  <If Condition="[contactExists=True]" sap:VirtualizedContainerService.HintSize="451.2,754.4" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,397.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'A  https://ritchennai.o...'" FoundElement="[ele1]" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2">
+                          <ui:WaitUiElementAppear.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dc13eb65-86ba-4b50-995e-3e57d419f30d" InformativeScreenshot="1610ccea4bb16c6e96f5cfaa59a3b789" Selector="&lt;webctrl aaname='Contact Us' tag='A' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:WaitUiElementAppear.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:WaitUiElementAppear>
+                        <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="innerHtml" DisplayName="Get Attribute 'Contact Us'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Result="[contact]" ScopeIdentifier="bf3c27a5-1aa6-4c36-b0cd-762c5e17368b" Version="V5">
+                          <uix:NGetAttributeGeneric.Target>
+                            <uix:TargetAnchorable BrowserURL="ritchennai.org" CVScreenId="60d5cc9f-a736-4f19-bc66-9296ab955c8f" ContentHash="dQPmORV3YkaL07zrNpPWqw" CvTextArea="562, 172, 98, 17" CvTextArgument="Contact Us" CvType="Text" DesignTimeRectangle="565, 167, 96, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Contact Us' tag='A' /&gt;" Guid="955b3b15-2448-45bd-a763-395765ccb4fe" InformativeScreenshot="2ebecc90d024563db0282e93cafd2c15.png" Reference="s-8CxFVHi0OwunKjpljJiQ/tSAGCHrFkkSDA8YpmZb_HQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <uix:Target DesignTimeRectangle="9, 210, 1901, 178" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="6c0df447-aea5-4e6f-a200-e6b07f76cbfe" SearchSteps="Selector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetAttributeGeneric.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NGetAttributeGeneric>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[contact]">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:MessageBox>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Contact element exist!&quot;]" />
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Contact Element does not exist!&quot;]" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484.8,168.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.2,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Navigation menu does not exist!&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:UiElementExists DisplayName="Element Exists 'A downloads/Photos'" Exists="[sihExists]" sap:VirtualizedContainerService.HintSize="451.2,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c2494751-2cb1-4544-b6ae-a621dd0d1cc8" InformativeScreenshot="531893bdf2fda31b6b9afd44def1f146" Selector="&lt;webctrl aaname='Smart India Hackathon 2022' tag='A' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <If Condition="[sihExists=True]" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="If_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,408.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="sih" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="innerHtml" DisplayName="Get Attribute 'Smart India Hackathon 2…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" Result="[sih]" ScopeIdentifier="bf3c27a5-1aa6-4c36-b0cd-762c5e17368b" Version="V5">
+                    <uix:NGetAttributeGeneric.Target>
+                      <uix:TargetAnchorable BrowserURL="ritchennai.org" CVScreenId="dc7bb1cc-1611-42ff-933c-6810ecd2958a" ContentHash="qJkv7lkl6k-qcQcWxLIYNQ" CvTextArea="990, 172, 251, 17" CvTextArgument="Smart India Hackathon 2022" CvType="Text" DesignTimeRectangle="992, 167, 249, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Smart India Hackathon 2022' tag='A' /&gt;" Guid="061bfa48-7f9e-4477-bd8c-ce5f1a2515b3" InformativeScreenshot="1d4f5abf997b9b2045ebfcc4c542343d.png" Reference="s-8CxFVHi0OwunKjpljJiQ/s213__qdyUOZlm8dCpYFEw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="9, 210, 1901, 178" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="9ec857af-a2e9-4497-b2db-e31d0f30f151" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetAttributeGeneric.Target>
+                  </uix:NGetAttributeGeneric>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[sih]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;SIH Element does not exist&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:UiElementExists DisplayName="Element Exists 'A downloads/Photos'" Exists="[ele3Exists]" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c2494751-2cb1-4544-b6ae-a621dd0d1cc8" InformativeScreenshot="8f00e71b5d2774aeaa21d50b675c77a9" Selector="&lt;webctrl aaname='International Admission' tag='A' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:UiElementExists>
+            <If Condition="[ele3Exists=True]" sap:VirtualizedContainerService.HintSize="451.2,767.2" sap2010:WorkflowViewState.IdRef="If_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,408.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="sih" />
+                    <Variable x:TypeArguments="x:String" Name="ele3Text" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="innerHtml" DisplayName="Get Attribute 'International Admission'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_4" Result="[ele3Text]" ScopeIdentifier="bf3c27a5-1aa6-4c36-b0cd-762c5e17368b" Version="V5">
+                    <uix:NGetAttributeGeneric.Target>
+                      <uix:TargetAnchorable BrowserURL="ritchennai.org" CVScreenId="6c34c6ce-ed69-474e-967d-c774eb356bd8" ContentHash="phzbEWnwL06YqTt9Y6A3rQ" CvTextArea="1270, 171, 211, 18" CvTextArgument="International Admission" CvType="Text" DesignTimeRectangle="1272, 167, 209, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='International Admission' tag='A' /&gt;" Guid="b898ed08-1257-441c-8590-8c27cde22262" InformativeScreenshot="9ffeeace5086353fe9d4c36f69b147d0.png" Reference="s-8CxFVHi0OwunKjpljJiQ/t5t37vItakm0eUxZ62VHtA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NGetAttributeGeneric.Target>
+                  </uix:NGetAttributeGeneric>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[ele3Text]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;SIH Element does not exist&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="BlA8HDh_iUyY8RSGmpooAw" IconBase64="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" InformativeScreenshot="9fa287ce6f35c6f12323d8e963609158.jpg" Reference="s-8CxFVHi0OwunKjpljJiQ/r_6OAeTyn0KAqYJEI5dCUg" Selector="&lt;html app='chrome.exe' title='Best Engineering college in Chennai | Rajalakshmi Institute of Technology' /&gt;" Url="https://ritchennai.org/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hqzhWUna1kCeNCb1zchPyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="9adc3a0f-a8d4-45fa-9265-d39dffadba3d" CvType="AnyWordGroup" DesignTimeRectangle="353, 398, 67, 67" ElementType="Text" FullSelectorArgument="&lt;webctrl id='wob_tm' tag='SPAN' /&gt;" Guid="1bfc78c7-95fd-48a2-bdff-e9e5fcf909b1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chennai Temperature - Google Search' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9adc3a0f-a8d4-45fa-9265-d39dffadba3d" CvTextArea="425, 410, 26, 18" CvTextArgument="°C" CvType="Text" DesignTimeRectangle="428, 408, 22, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='°Celsius' aria-role='button' tag='SPAN' type='' class='wob_t' aaname='°C' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='°C' /&gt;" Guid="f5a9b0be-5b7c-45b6-aac3-226085cd7082" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1746ce4353d745d817f8d89c98896362.png" xmlns="">0hzm49vwIB0O--uwll469bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

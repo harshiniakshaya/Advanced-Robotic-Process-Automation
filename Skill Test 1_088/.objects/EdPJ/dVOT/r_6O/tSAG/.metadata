@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Contact Us",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "tSAGCHrFkkSDA8YpmZb_HQ",
+  "Reference": "s-8CxFVHi0OwunKjpljJiQ/tSAGCHrFkkSDA8YpmZb_HQ",
+  "ParentRef": "s-8CxFVHi0OwunKjpljJiQ/r_6OAeTyn0KAqYJEI5dCUg",
+  "Created": "2025-08-25T09:03:40.9127547Z",
+  "Updated": "2025-08-25T09:03:40.9127547Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

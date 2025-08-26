@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Smart India Hackathon 2…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "s213__qdyUOZlm8dCpYFEw",
+  "Reference": "s-8CxFVHi0OwunKjpljJiQ/s213__qdyUOZlm8dCpYFEw",
+  "ParentRef": "s-8CxFVHi0OwunKjpljJiQ/r_6OAeTyn0KAqYJEI5dCUg",
+  "Created": "2025-08-25T09:16:23.3569505Z",
+  "Updated": "2025-08-25T09:16:23.3569505Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

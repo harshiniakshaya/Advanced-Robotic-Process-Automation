@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Untitled - Notepad",
+  "Type": "Screen",
+  "Id": "7uvwz6r8qEOc1IUeZYTz0A",
+  "Reference": "wS7BxvkE506Uju-aftOlxQ/7uvwz6r8qEOc1IUeZYTz0A",
+  "ParentRef": "wS7BxvkE506Uju-aftOlxQ/7da1NKAWqEyqbjLCTKl3kQ",
+  "Created": "2025-07-23T03:07:10.532183Z",
+  "Updated": "2025-07-23T03:07:10.532183Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
