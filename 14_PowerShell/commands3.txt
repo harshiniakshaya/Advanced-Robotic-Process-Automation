@@ -1,0 +1,2 @@
+Move-Item -Path ".\REC.txt" -Destination ".\Folder"
+Move-Item -Path ".\RIT.txt" -Destination ".\Folder"
