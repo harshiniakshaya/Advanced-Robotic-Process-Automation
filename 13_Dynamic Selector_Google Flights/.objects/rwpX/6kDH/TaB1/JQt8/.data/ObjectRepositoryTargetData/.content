@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OTDILGdpe0OQErewW2EjMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" DesignTimeRectangle="758, 754, 60, 60" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='ow16' tag='DIV' class='p1BRgf KQqAEc' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23&amp;#xA;₹4,680' /&gt;" Guid="f90d8f41-588d-4ab1-830f-329e95bc9092" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights to Malaysia - Google Flights' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bd733558-0ea5-4ebc-bf2a-3eb1c4d925fa" CvTextArea="776, 757, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="778, 754, 20, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025, departure date.' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025, departure date.' tag='DIV' type='' class='eoY5cb CylAxb sLG56c yCya5' aaname='23' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23' /&gt;" Guid="0dc1165e-e1d8-4477-8dc2-cfde3b682797" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7e93b1f292ccbcc50a383c534a345e6.png" xmlns="">0r4Wdd_g_002n7R-Uwp92sg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

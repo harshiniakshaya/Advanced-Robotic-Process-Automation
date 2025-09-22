@@ -1,0 +1,12 @@
+{
+  "Workflows": [
+    {
+      "Path": "Get PDF Count.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DpzSRxTe8EOt9VgLlGXtpA" Reference="Tll9PnC-3kqq3nx3K7Zaeg/mCVwOZpNFk-H0sqvB8FxZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" CVScreenId="b76b1d04-e897-4971-bffd-de8ca668891f" CvTextArea="776, 720, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="749, 557, 60, 60" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' idx='23' parentid='ow12' tag='DIV' /&gt;" Guid="ba7e2459-a7fd-4884-aa68-72c0f2b11616" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights Worldwide &amp;amp; Book Your Ticket - Google Flights' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b478b976-abc8-44ee-af91-74e0ff852718" CvTextArea="776, 720, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="769, 557, 20, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025' tag='DIV' type='' class='eoY5cb CylAxb sLG56c yCya5' aaname='23' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23' /&gt;" Guid="5b9487bb-eb6e-4dff-9173-b7e59f075dd6" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e987a734cafa561247c59eec8ff4cfbf.png" xmlns="">0B5LJ4mbVBEiITU8eShTxkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

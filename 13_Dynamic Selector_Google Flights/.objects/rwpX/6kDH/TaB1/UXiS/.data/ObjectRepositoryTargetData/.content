@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1OzIjLuy1k-qphzwWNOG2Q" Reference="Tll9PnC-3kqq3nx3K7Zaeg/UXiSUvgjsEqZ1Gp8eDHnng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" CVScreenId="1c6c144a-850a-44be-b17f-16952eb0bff0" CvTextArea="776, 720, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="758, 717, 60, 60" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' idx='(*) flightDate' parentid='ow12' tag='DIV' /&gt;" Guid="3e904d69-e2a9-4b45-ac4b-92bad990b648" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights Worldwide &amp;amp; Book Your Ticket - Google Flights' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c6c144a-850a-44be-b17f-16952eb0bff0" CvTextArea="776, 720, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="778, 717, 20, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025' tag='DIV' type='' class='eoY5cb CylAxb sLG56c yCya5' aaname='23' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23' /&gt;" Guid="7a15169c-09aa-4833-bf90-186ee0900525" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6db9aed0d1d7f795f5fdefa096465596.png" xmlns="">0PCB2TK_TEkuIY5_gYvoVdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

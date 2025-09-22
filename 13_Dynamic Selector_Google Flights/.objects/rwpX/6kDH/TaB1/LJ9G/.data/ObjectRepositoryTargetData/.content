@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IGKpX8eXFUuQIhMhOBq7vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" CVScreenId="1f648247-8f6f-4ace-ae5e-708e3b4aeb63" CvTextArea="776, 757, 22, 16" CvTextArgument="23" CvType="Text" DesignTimeRectangle="778, 754, 20, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='Tuesday, September 23, 2025, departure date.' tag='DIV' type='' class='eoY5cb CylAxb sLG56c yCya5' aaname='23' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23' /&gt;" Guid="02825c97-b146-40dc-bb7b-514ff785b69f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights Worldwide &amp;amp; Book Your Ticket - Google Flights' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="758, 754, 60, 60" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' idx='23' parentid='ow13' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='ow13' tag='DIV' class='p1BRgf KQqAEc' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='23&amp;#xA;₹4,680' /&gt;" Guid="48eb482b-0610-4b79-b3bf-73515bfb1f86" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a64c7a02876d58b5745849b3294b1518.png" xmlns="">0P8a_GnoRtE-4AMnooWtmCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

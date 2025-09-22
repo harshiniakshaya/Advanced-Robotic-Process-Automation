@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome MoE, National Institute Ranking Framew",
+  "Type": "Screen",
+  "Id": "vqR4XH3LAkSMS6iPHDFHzg",
+  "Reference": "D-XXvd0SP0CGyeOtjo781Q/vqR4XH3LAkSMS6iPHDFHzg",
+  "ParentRef": "D-XXvd0SP0CGyeOtjo781Q/xkeQUKkgfUOjXxRVrgfCNQ",
+  "Created": "2025-09-22T14:15:07.456104Z",
+  "Updated": "2025-09-22T14:15:07.456104Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

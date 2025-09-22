@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mD14C9LohkqDurGDFAI1Dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" CVScreenId="c6ceb78b-0ba6-4162-ab4d-2480d526d098" CvElementArea="359, 409, 355, 74" CvType="InputBox" DesignTimeRectangle="359, 412, 353, 70" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="6c6e7917-8e26-49e4-9578-df7bb8bd81bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights Worldwide &amp;amp; Book Your Ticket - Google Flights' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6ceb78b-0ba6-4162-ab4d-2480d526d098" CvElementArea="692, 422, 50, 47" CvType="Icon" DesignTimeRectangle="695, 425, 45, 45" FullSelectorArgument="&lt;webctrl class='KdjqBc' parentid='i24' tag='DIV' /&gt;" Guid="22e673ce-462a-49e5-9cc8-e5c2acd8aca5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANISURBVGhD3Zprb9owFIb7qwbd2o7SBgKkMNRVrKy7SJOAhJtaTWuh7f76md5UjpzjGGwTYOHD8yF2cnze+HKOnRy9K72nPJg/PCplOmzuNeGIF7hi45jNvSbsTUT1oqaUu7KRiLPKBX3u9Wk4nlM4mSv1Om7vftBgNKVhNI+fhx1+jw1OIirnHvW//aTx7IFuel/p3PGt4jk8DzuwB7v8HhOsReDNTea/qXvdo1L5RKl3AXZgD3Zhn9evw1gExvCvYRS/sZPTilKfB7AL+2jHZs4YifBbbZrd/6GrzrVStw3QDtpDu7wui7UiWu1uPGZr9aZSt03QHtpF+7yOs1IE3gQMVS/rSt0uQLtof12PaEVgTKJLd90DHLQPP1bNEa0ITK5dzYF1wA/4w8sFmSKwzGGV4OX7BP7oll9FBAIO1uttLaOuwB/4lRUQFRFQjMDDy/PEbwQ0GERUPrYLlvAra4SkRCCHwWqQVyTOwqs1aPH8SovnvzQY2QmBX/CP51opERhzyGX4w3kCp0fhNBYBhuHESgj843MjJQJZpWsyZwOcDsczJyHwD1mzXJaIwDqM9Jg/tC3Kx6fOQuCnHDcSEZ3uDfX635UHXKn7QeKgKaZC4Cf8FdeJCMz6oP1JecAVFxGY8J7nK7Y48FNepRIRcfrrmCNhxeFv8Oxjlb7c3q0kkoYTBDSaV4rtLOCnHMETEeH03inA4Y0/LV+Nh4KgFXSSpfZp+RLHDn6PDvgJf8V1IgJJlm18qDcCely8JI6YDAXQDNq0WL4JsOkBAfyEv+I6EWFzWgH8RisloNkyc8SrN+P7XQUIZH+dekIMISHAxpFS+QOF0cR6CKVtaHrCdE7IQwiE46kyYTmY5LINzJ1N9inaOWGyOl16fkqAKeg5bmsTtKuTSZwQQ4E7uY68RWjjhGnE5kKQOtgsrXmgjdg2uRMXgqx0l0K0uRNAdmiaxe5LSJzFRposFtjuJ972BkKIWd6zKWv3Ey47OwjBVtMmVrhitLMDu9hju2K0xwYHcdoBCn/uJCj8CSA4iLNYUPhTcUHhv08ICv+lSFD4b3Yyhf56KlP479gyyR8FkeMfBeM9/lGQhc1pyX/1b4eMrQhetgkHIeIf/70zz5djvAEAAAAASUVORK5CYII=" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3b5502fcef7d4688e5d840131098c6bc.png" xmlns="">0IWGvxUdItEOW1sy44HhnZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

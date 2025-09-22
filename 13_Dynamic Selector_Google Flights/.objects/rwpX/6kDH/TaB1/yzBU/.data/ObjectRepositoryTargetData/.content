@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xnH5vzfvAkmQ45T_UHIPng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/travel/flights" CVScreenId="6e19a7b8-a13b-445b-bc47-bfbb78ddd644" CvTextArea="404, 370, 83, 21" CvTextArgument="Round trip" CvType="Text" DesignTimeRectangle="359, 357, 172, 45" FullSelectorArgument="&lt;webctrl class='VfPpkd-woaZLe' tag='SPAN' /&gt;" Guid="02235827-994a-4371-a3b6-ccada1594a23" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Cheap Flights Worldwide &amp;amp; Book Your Ticket - Google Flights' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f80cf026241f017ec302e4789e4fbfce.png" xmlns="">0yIYQK3DKpUu66LbPKrM5UQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
